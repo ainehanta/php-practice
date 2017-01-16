@@ -20,3 +20,10 @@
 
 </body>
 </html>
+
+<!--
+$here_document <<<EOT
+hoge
+fuga
+EOT;
+-->
