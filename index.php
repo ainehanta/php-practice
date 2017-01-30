@@ -7,7 +7,7 @@
 <h1>List of Contents</h1>
 
 <?php
-foreach(glob('*.php') as $file){
+foreach(glob('{*.php,*.html}', GLOB_BRACE) as $file){
   if(is_file($file)){
     $file = htmlspecialchars($file);
     echo "<div><a href=\"$file\">$file</a></div>";
